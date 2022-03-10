@@ -3,9 +3,9 @@ function setDivider () {
     let divider = document.getElementsByClassName('divider')[0]
 
     if (window.innerHeight > window.innerWidth) {
-        document.getElementsByClassName('divider')[0].src = '../images/pattern-divider-mobile.svg'
+        document.getElementsByClassName('divider')[0].src = './images/pattern-divider-mobile.svg'
     } else {
-        document.getElementsByClassName('divider')[0].src = '../images/pattern-divider-desktop.svg'
+        document.getElementsByClassName('divider')[0].src = './images/pattern-divider-desktop.svg'
     }
 
 
