@@ -1,18 +1,18 @@
 // change element divider img for desktop/mobile
-// function setDivider () {
-//     let divider = document.getElementsByClassName('divider')[0]
+function setDivider () {
+    let divider = document.getElementsByClassName('divider')[0]
 
-//     if (window.innerHeight > window.innerWidth) {
-//         document.getElementsByClassName('divider')[0].src = './images/pattern-divider-mobile.svg'
-//     } else {
-//         document.getElementsByClassName('divider')[0].src = './images/pattern-divider-desktop.svg'
-//     }
+    if (window.innerHeight > window.innerWidth) {
+        document.getElementsByClassName('divider')[0].src = './images/pattern-divider-mobile.svg'
+    } else {
+        document.getElementsByClassName('divider')[0].src = './images/pattern-divider-desktop.svg'
+    }
 
 
-// }
+}
 
-// window.addEventListener('resize', setDivider)
-// window.addEventListener('load', setDivider)
+window.addEventListener('resize', setDivider)
+window.addEventListener('load', setDivider)
 
 
 // get item from advice API
